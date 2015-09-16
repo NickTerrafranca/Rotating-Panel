@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-  perspective: 2000px;
+  perspective: 700px;
   width: 320px;
   height:300px;
   position: relative;
