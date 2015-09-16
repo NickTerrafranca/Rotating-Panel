@@ -9,7 +9,7 @@ body {
   width: 100%;
   transform: translateZ( 0px );
   height: 100%;
-  transition: transform 1s, margin .4s;
+  transition: transform .7s, margin .4s;
   transform-style: preserve-3d;
   position: absolute;
   border: 1px solid black;
@@ -45,7 +45,7 @@ body {
   z-index:100;
 }
 
-.padding {
+figure > div {
   padding: 12px;
 }
 
