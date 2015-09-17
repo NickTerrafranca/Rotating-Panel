@@ -10,7 +10,7 @@ body {
   transform: translateZ( 0px );
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform .7s;
+  transition: transform .7s, margin .4s;
   position: absolute;
   border: 1px solid black;
   border-radius: 6px;
@@ -37,12 +37,12 @@ body {
 }
 
 .container {
-  perspective: 700px;
+  perspective: 2000px;
   width: 320px;
   height:300px;
   position: relative;
   margin: 0 auto;
-  z-index:100;
+  z-index: 100;
 }
 
 figure > div {
