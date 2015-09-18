@@ -47,9 +47,15 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   -webkit-box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75);
   box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75);
+=======
+  -webkit-box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75), -220px 100px 71px 29px rgba(166,166,166,1);
+  -moz-box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75), -220px 100px 71px 29px rgba(166,166,166,1);
+  box-shadow: inset 3px -4px 21px -6px rgba(0,0,0,0.75), -220px 100px 71px 29px rgba(166,166,166,1);
+>>>>>>> 26298c15fc50bfd4122aec40d329884ec590f10c
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transform: rotateX(0deg);
